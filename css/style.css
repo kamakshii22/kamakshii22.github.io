@@ -313,7 +313,7 @@ a:focus {
 }
 
 .header .content-inner {
-    padding: 100px 30px;
+    padding: 20px 30px;
     background: url(../img/background.jpg) right bottom no-repeat;
     background-size: contain;
 }
@@ -338,12 +338,19 @@ a:focus {
     font-size: 25px;
 }
 
+.header h3 {
+    display: inline-block;
+    margin: 0;
+    height: 17px;
+    font-size: 17px;
+}
+
 .header .typed-text {
     display: none;
 }
 
 .header .typed-cursor {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     color: #222222;
 }
